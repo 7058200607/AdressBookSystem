@@ -12,6 +12,8 @@ namespace AddressBookSystem
         {
             Console.WriteLine(" Welcome to Address Book Program");
             AddreesBookSystem.CreateContact();
+            AddreesBookSystem.Modify();
+   
       
         }
     }
