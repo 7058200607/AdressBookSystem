@@ -235,5 +235,24 @@ namespace AddressBookSystem
                 }
             }
         }
+        public static void ContactList() 
+        {
+            if(People.Count== null) 
+            {
+                Console.WriteLine("\n Address book is empty");
+                Console.WriteLine("To exist press any key");
+                Console.ReadKey();
+                return;
+            }
+            Console.WriteLine("\n-------address book------------");
+            foreach(var person in People.ToList()) 
+            {
+                PrintContacts(person);
+
+            }
+            Console.WriteLine("To exit press any key ");
+            Console.ReadKey();
+           
+        }
     }
 }

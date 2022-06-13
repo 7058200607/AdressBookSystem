@@ -14,6 +14,7 @@ namespace AddressBookSystem
             AddreesBookSystem.CreateContact();
             AddreesBookSystem.Modify();
             AddreesBookSystem.Delete();
+            AddreesBookSystem.ContactList();
    
       
         }
