@@ -24,6 +24,7 @@ namespace AddressBookProgram
             Console.WriteLine("5.Add Multiple Addressbook");
             Console.WriteLine("6.To find a person in state or city:");
             Console.WriteLine("7.To view a person in state or city:");
+            Console.WriteLine("8.to Count by City or State:");
                
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
@@ -58,6 +59,10 @@ namespace AddressBookProgram
                     break;
                 case 7:
                     addressBook.ViewPersonInCityOrState();
+                    break;
+                case 8:
+                    addressBook.AddNewAddressBook();
+                    addressBook.CountByCityOrState();
                     break;
 
             }
