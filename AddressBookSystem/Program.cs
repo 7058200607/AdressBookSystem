@@ -71,7 +71,7 @@ namespace AddressBookProgram
                     Console.WriteLine("After sorting:");
                     addressBook.SortPersonName();
                     break;
-
+              
             }
         }
     }
